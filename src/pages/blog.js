@@ -27,16 +27,11 @@ const BlogPage = (data) => {
             <SEO title="Blog" />
             <Header />
             <Blog>
-                <div class="blogContainer">
-                    <div>
-                        <h1>Blog</h1>
-                        <p>Coming Soon!</p>
-                    </div>
+                <h1>Blog</h1>
+                <div style={{marginTop: 60}}>
+                    { posts }
                 </div>
             </Blog>
-            {/* <div style={{marginTop: 60}}>
-                { posts }
-            </div> */}
         </Layout>
     )
 }
