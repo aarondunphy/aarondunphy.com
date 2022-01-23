@@ -1,13 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { StaticImage } from "gatsby-plugin-image"
 import Heading from "../components/Heading"
 
 const UsesPage = () => {
   return (
     <Layout>
-        <SEO title="Uses" />
+        <Seo title="Uses" />
         <div className="container">
 
           <Heading level={1}>Uses</Heading>

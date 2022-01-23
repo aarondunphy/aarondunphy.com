@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Heading from "../components/Heading"
@@ -9,7 +9,7 @@ import Heading from "../components/Heading"
 const AboutPage = () => {
     return (
         <Layout>
-          <SEO title="About" />
+          <Seo title="About" />
           <div className="container">
             
             <Heading level={1}>Hey, I'm Aaron 👋</Heading>

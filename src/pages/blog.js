@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Heading from "../components/Heading"
 
 const BlogPage = (data) => {
@@ -22,7 +22,7 @@ const BlogPage = (data) => {
 
     return (
         <Layout>
-          <SEO title="Blog" />
+          <Seo title="Blog" />
           <div className="container">
               <Heading level={1}>Blog</Heading>
               <div style={{marginTop: 60}}>

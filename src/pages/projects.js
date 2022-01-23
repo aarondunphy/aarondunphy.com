@@ -1,12 +1,12 @@
 import React from "react"
 import Heading from "../components/Heading"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const ProjectPage = () => {
     return (
         <Layout>
-            <SEO title="Projects" />
+            <Seo title="Projects" />
             
             <div className="container">
               <Heading level={1}>Projects I've Worked On</Heading>

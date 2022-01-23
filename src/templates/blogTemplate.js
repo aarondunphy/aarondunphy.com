@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Header from "../components/header"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -12,7 +12,7 @@ export default function Template({
   return (
     <Layout>
         <Header />
-        <SEO title={frontmatter.title} />
+        <Seo title={frontmatter.title} />
         <div className="blog-post-container">
         <div className="blog-post">
             <h1 style={{marginBottom: 10}}>{frontmatter.title}</h1>

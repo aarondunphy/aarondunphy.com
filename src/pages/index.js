@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Heading from "../components/Heading"
 
 const IndexPage = (data) => {
@@ -23,7 +23,7 @@ const IndexPage = (data) => {
 
     return (
         <Layout>
-          <SEO title="Home" />
+          <Seo title="Home" />
           <div className="container">
               <div className="py-16">
                 <h2 className="text-4xl font-bold">Hey, I'm Aaron <span role="img" aria-label="wave">👋</span></h2>
