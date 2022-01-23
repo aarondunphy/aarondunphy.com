@@ -3,19 +3,18 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Header from "../components/header"
-import Hero from "../components/styles/hero"
+import Heading from "../components/Heading"
 
 const IndexPage = (data) => {
 
     const { nodes } = data.data.allMarkdownRemark
     const posts = nodes.map((node, index) => (
         <div key={index} style={{marginBottom: 40}}>
-            <h3 style={{marginBottom: 5}}>
+            <Heading level={3} style={{marginBottom: 5}}>
                 <Link to={ node.frontmatter.slug }>
                     { node.frontmatter.title }
                 </Link>
-            </h3>
+            </Heading>
             <p style={{margin: 0}}><small>{ node.frontmatter.date }</small></p>
             <p>{ node.frontmatter.description }</p>
 
@@ -24,20 +23,17 @@ const IndexPage = (data) => {
 
     return (
         <Layout>
-            <SEO title="Home" />
-            <Header />
-            <Hero>
-                <div className="hero">
-                    <div>
-                        <p>Hey, I'm Aaron <span role="img" aria-label="wave">👋</span></p>
-                        <h1>Full Stack Developer based in <a href="https://www.instagram.com/p/CClAnxTlMH_/" target="_blank">Leigh-on-Sea, UK.</a></h1>
-                        <p>Powered by <span role="img" aria-label="coffee">☕️</span></p>
-                    </div>
-                </div>
-            </Hero>
-            <div style={{marginTop: 60}}>
-                { posts }
-            </div>
+          <SEO title="Home" />
+          <div className="container">
+              <div className="py-16">
+                <h2 className="text-4xl font-bold">Hey, I'm Aaron <span role="img" aria-label="wave">👋</span></h2>
+                <h1 className="text-2xl font-bold">Full Stack Developer based in Leigh-on-Sea, UK.</h1>
+                <p className="text-xl">Powered by <span role="img" aria-label="coffee">☕️</span></p>
+              </div>
+              <div style={{marginTop: 60}}>
+                  { posts }
+              </div>
+          </div>
         </Layout>
     )
 }

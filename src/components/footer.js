@@ -1,52 +1,30 @@
 import React from "react"
-import Container from "./styles/container"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 
 const Footer = () => (
-    <footer style={{
-        backgroundColor: 'rgb(243 243 243)',
-        margin: `60px 0 0px 0`,
-        padding: `6% 0px`,
-        fontSize: 14,
-        color: `rgb(76 76 76)`,
-    }}>
-        <Container>
-            <div style={{textAlign: `center`}}>
-                <div style={{marginBottom: 20}}>
-                    <a href="https://twitter.com/aarondunphy" target="_blank" rel="noreferrer" style ={{
-                        color: `rgb(76 76 76)`,
-                        fontSize: 24,
-                        marginRight: 20
-                    }}>
+    <footer className="bg-gray-100 py-16 text-gray-800">
+        <div className="container">
+            <div className="text-center">
+                <div className="flex gap-4 mb-6 justify-center">
+                    <a href="https://twitter.com/aarondunphy" target="_blank" rel="noreferrer" className="text-gray-800 text-xl hover:text-indigo-600">
                         <FontAwesomeIcon icon={faTwitter} />
                     </a>
-                    <a href="https://github.com/aarondunphy" target="_blank" rel="noreferrer" style ={{
-                        color: `rgb(76 76 76)`,
-                        fontSize: 24,
-                        marginRight: 20
-                    }}>
+                    <a href="https://github.com/aarondunphy" target="_blank" rel="noreferrer" className="text-gray-800 text-xl hover:text-indigo-600">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
-                    <a href="https://linkedin.com/in/aarondunphy" target="_blank" rel="noreferrer" style ={{
-                        color: `rgb(76 76 76)`,
-                        fontSize: 24,
-                        marginRight: 20
-                    }}>
+                    <a href="https://linkedin.com/in/aarondunphy" target="_blank" rel="noreferrer" className="text-gray-800 text-xl hover:text-indigo-600">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
-                    <a href="https://instagram.com/aarondunphy" target="_blank" rel="noreferrer" style ={{
-                        color: `rgb(76 76 76)`,
-                        fontSize: 24,
-                    }}>
+                    <a href="https://instagram.com/aarondunphy" target="_blank" rel="noreferrer" className="text-gray-800 text-xl hover:text-indigo-600">
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </div>
                 <p style={{fontSize: 16}}>&copy; Aaron Dunphy { new Date().getFullYear() }</p>
                 <p style={{marginBottom: 0}}>Built with <a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer">Gatsby</a> &amp; <span role="img" aria-label="coffee">☕️</span></p>
             </div>
-        </Container>
+        </div>
     </footer>
 )
 

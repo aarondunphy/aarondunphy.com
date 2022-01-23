@@ -1,21 +1,19 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Header from "../components/header"
-import Blog from "../components/styles/blog"
+import Heading from "../components/Heading"
 
 const BlogPage = (data) => {
 
     const { nodes } = data.data.allMarkdownRemark
     const posts = nodes.map((node, index) => (
         <div key={index} style={{marginBottom: 40}}>
-            <h3 style={{marginBottom: 5}}>
+            <Heading level={3}>
                 <Link to={ node.frontmatter.slug }>
                     { node.frontmatter.title }
                 </Link>
-            </h3>
+            </Heading>
             <p style={{margin: 0}}><small>{ node.frontmatter.date }</small></p>
             <p>{ node.frontmatter.description }</p>
 
@@ -24,14 +22,13 @@ const BlogPage = (data) => {
 
     return (
         <Layout>
-            <SEO title="Blog" />
-            <Header />
-            <Blog>
-                <h1>Blog</h1>
-                <div style={{marginTop: 60}}>
-                    { posts }
-                </div>
-            </Blog>
+          <SEO title="Blog" />
+          <div className="container">
+              <Heading level={1}>Blog</Heading>
+              <div style={{marginTop: 60}}>
+                  { posts }
+              </div>
+            </div>
         </Layout>
     )
 }
