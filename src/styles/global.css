@@ -9,3 +9,7 @@
 p {
   margin-bottom: 20px;
 }
+
+pre {
+  @apply bg-gray-800 text-white p-4 w-full overflow-x-scroll mb-6;
+}

@@ -1,27 +1,28 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import Header from "../components/header"
 import Seo from "../components/seo"
+import Heading from "../components/Heading";
 
 export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
+  data,
 }) {
-  const { markdownRemark } = data // data.markdownRemark holds your post data
+  const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
-        <Header />
         <Seo title={frontmatter.title} />
-        <div className="blog-post-container">
-        <div className="blog-post">
-            <h1 style={{marginBottom: 10}}>{frontmatter.title}</h1>
-            <p><small>{frontmatter.date}</small></p>
-            <div
-            className="blog-post-content"
-            dangerouslySetInnerHTML={{ __html: html }}
-            />
-        </div>
+        <div className="container">
+          <div className="blog-post-container">
+            <div className="blog-post">
+                <Heading level={1}>{frontmatter.title}</Heading>
+                <p><small>{frontmatter.date}</small></p>
+                <div
+                className="blog-post-content"
+                dangerouslySetInnerHTML={{ __html: html }}
+                />
+            </div>
+          </div>
         </div>
     </Layout>
   )
