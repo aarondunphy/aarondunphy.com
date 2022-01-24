@@ -1,25 +1,24 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-
+// import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Heading from "../components/Heading"
+// import Heading from "../components/Heading"
 
 const IndexPage = (data) => {
 
-    const { nodes } = data.data.allMarkdownRemark
-    const posts = nodes.map((node, index) => (
-        <div key={index} style={{marginBottom: 40}}>
-            <Heading level={3} style={{marginBottom: 5}}>
-                <Link to={ node.frontmatter.slug }>
-                    { node.frontmatter.title }
-                </Link>
-            </Heading>
-            <p style={{margin: 0}}><small>{ node.frontmatter.date }</small></p>
-            <p>{ node.frontmatter.description }</p>
+    // const { nodes } = data.data.allMarkdownRemark
+    // const posts = nodes.map((node, index) => (
+    //     <div key={index} style={{marginBottom: 40}}>
+    //         <Heading level={3} style={{marginBottom: 5}}>
+    //             <Link to={ node.frontmatter.slug }>
+    //                 { node.frontmatter.title }
+    //             </Link>
+    //         </Heading>
+    //         <p style={{margin: 0}}><small>{ node.frontmatter.date }</small></p>
+    //         <p>{ node.frontmatter.description }</p>
 
-        </div>
-    ))
+    //     </div>
+    // ))
 
     return (
         <Layout>
@@ -30,9 +29,9 @@ const IndexPage = (data) => {
                 <h1 className="text-2xl font-bold">Full Stack Developer based in Leigh-on-Sea, UK.</h1>
                 <p className="text-xl">Powered by <span role="img" aria-label="coffee">☕️</span></p>
               </div>
-              <div style={{marginTop: 60}}>
+              {/* <div style={{marginTop: 60}}>
                   { posts }
-              </div>
+              </div> */}
           </div>
         </Layout>
     )
@@ -40,17 +39,17 @@ const IndexPage = (data) => {
 
 export default IndexPage
 
-export const pageQuery = graphql`
-    query {
-        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-            nodes {
-                frontmatter {
-                    title
-                    date(formatString: "DD MMMM YYYY")
-                    description
-                    slug
-                }
-            }
-        }
-    }
-`
+// export const pageQuery = graphql`
+//     query {
+//         allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+//             nodes {
+//                 frontmatter {
+//                     title
+//                     date(formatString: "DD MMMM YYYY")
+//                     description
+//                     slug
+//                 }
+//             }
+//         }
+//     }
+// `
