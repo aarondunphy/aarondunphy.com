@@ -26,8 +26,9 @@ const IndexPage = (data) => {
           <div className="container">
               <div className="py-16">
                 <h2 className="text-4xl font-bold">Hey, I'm Aaron <span role="img" aria-label="wave">👋</span></h2>
-                <h1 className="text-2xl font-bold">Full Stack Developer based in Leigh-on-Sea, UK.</h1>
-                <p className="text-xl">Powered by <span role="img" aria-label="coffee">☕️</span></p>
+                <h1 className="text-3xl font-bold">Software Developer based in Leigh-on-Sea, UK</h1>
+                <h2 className="text-2xl font-bold">Focusing on Front End Development with React</h2>
+                <p className="text-lg">Powered by <span role="img" aria-label="coffee">☕️</span></p>
               </div>
               <div className="mt-16">
                   { posts }

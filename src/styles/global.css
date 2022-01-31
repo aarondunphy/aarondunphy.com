@@ -13,3 +13,11 @@ p {
 pre {
   @apply bg-gray-800 text-white p-4 w-full overflow-x-scroll mb-6;
 }
+
+.blog-post-content h2 {
+  @apply text-3xl font-bold mb-6;
+}
+
+.blog-post-content hr {
+  margin: 40px 0px;
+}
