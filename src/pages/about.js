@@ -17,7 +17,7 @@ const AboutPage = () => {
             <div className="flex flex-col-reverse gap-8 items-center mb-10 md:flex-row">
               <div className="md:w-2/3">
 
-                <p>I'm a Software Developer based in <a href="https://en.wikipedia.org/wiki/Leigh-on-Sea" target="_blank" rel="noreferrer">Leigh-on-Sea</a>, UK. I have a passion for coding and get most enjoyment from solving problems with writing elegant/maintainable code and sharing knowledge. I love learning so I'm always keeping up to date by watching conference talks, listening to <Link to="/blog/my-top-5-tech-podcasts-2020">podcasts</Link> and reading blog posts.</p>
+                <p>I'm a Software Engineer based in <a href="https://en.wikipedia.org/wiki/Leigh-on-Sea" target="_blank" rel="noreferrer">Leigh-on-Sea</a>, UK. I have over 7 years experience in Web Development and I'm now focusing on Front End Development with React. I have a passion for coding and get most enjoyment from solving problems with writing elegant/maintainable code and sharing knowledge. I love learning so I'm always keeping up to date by watching conference talks, listening to Podcasts and reading blog posts.</p>
                 
                 <p>My coding journey started unexpectedly in my first year of University in 2012. I went to uni for graphic design but in our first year we had to build a basic website and I thought writing code was so cool. I was hooked so I switched my degree to Web Technologies. I've been working in the industry since graduating in 2015 with a first class honours.</p>
 
@@ -36,6 +36,7 @@ const AboutPage = () => {
                 <li>React</li>
                 <li>Vue.js</li>
                 <li>Gatsby</li>
+                <li>Next.js</li>
                 <li>Node.js</li>
                 <li>PHP</li>
                 <li>Laravel</li>
