@@ -22,7 +22,7 @@ const IndexPage = (data) => {
 
     return (
         <Layout>
-          <Seo title="Home" />
+          <Seo title="Home | Freelance Web Developer" />
           <div className="container">
               <div className="py-16 md:w-2/3">
                 <h2 className="text-4xl font-bold mb-2">Hey, I'm Aaron <span role="img" aria-label="wave">👋</span></h2>

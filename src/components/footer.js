@@ -21,8 +21,7 @@ const Footer = () => (
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </div>
-                <p style={{fontSize: 16}}>&copy; Aaron Dunphy { new Date().getFullYear() }</p>
-                <p style={{marginBottom: 0}}>Built with <a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer">Gatsby</a> &amp; <span role="img" aria-label="coffee">☕️</span></p>
+                <p className="mb-0">&copy; Aaron Dunphy { new Date().getFullYear() }</p>
             </div>
         </div>
     </footer>
