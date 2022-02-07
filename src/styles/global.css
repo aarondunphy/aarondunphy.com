@@ -21,3 +21,8 @@ pre {
 .blog-post-content hr {
   margin: 40px 0px;
 }
+
+.container-blog {
+  max-width: 700px;
+  margin: 0px auto;
+}

@@ -12,7 +12,7 @@ export default function Template({
   return (
     <Layout>
         <Seo title={frontmatter.title} />
-        <div className="container">
+        <div className="container-blog">
           <div className="blog-post-container">
             <div className="blog-post">
                 <Heading level={1}>{frontmatter.title}</Heading>
