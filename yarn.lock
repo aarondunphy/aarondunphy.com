@@ -5313,6 +5313,15 @@
   "resolved" "https://registry.npmjs.org/gatsby-plugin-fontawesome-css/-/gatsby-plugin-fontawesome-css-1.2.0.tgz"
   "version" "1.2.0"
 
+"gatsby-plugin-google-analytics@^4.6.0":
+  "integrity" "sha512-HjWfYDwCKHs3k5RMvrlrTzJmEtyEnT573npiEOezBvy4MSHUhWRb7phNeHGFKcE7+lDwDfUXxrZrb8L8T6GvKw=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-4.6.0.tgz"
+  "version" "4.6.0"
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "minimatch" "3.0.4"
+    "web-vitals" "^1.1.2"
+
 "gatsby-plugin-google-fonts@^1.0.1":
   "integrity" "sha512-p1NVkn27GUnDA5qHM+Z4cCcLCJIardzZXMon3640sT4xuL/AZJbsx3HEt2KY/5oZu0UXIkytkxzV2Da4rQeUIg=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-1.0.1.tgz"
@@ -11290,6 +11299,11 @@
   "integrity" "sha512-wYxSGajtmoP4WxfejAPIr4l0fVh+jeMXZb08wNc0tMg6xsfZXj3cECqIK0G7ZAqUq0PP8WlMDtaOGVBTAWztNw=="
   "resolved" "https://registry.npmjs.org/web-namespaces/-/web-namespaces-1.1.4.tgz"
   "version" "1.1.4"
+
+"web-vitals@^1.1.2":
+  "integrity" "sha512-PFMKIY+bRSXlMxVAQ+m2aw9c/ioUYfDgrYot0YUa+/xa0sakubWhSDyxAKwzymvXVdF4CZI71g06W+mqhzu6ig=="
+  "resolved" "https://registry.npmjs.org/web-vitals/-/web-vitals-1.1.2.tgz"
+  "version" "1.1.2"
 
 "webidl-conversions@^3.0.0":
   "integrity" "sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE="
