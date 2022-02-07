@@ -16,8 +16,8 @@ const AboutPage = () => {
             <div className="flex flex-col-reverse gap-8 items-center mb-10 md:flex-row">
               <div className="md:w-2/3">
 
-                <p>I'm a Software Engineer based in <a href="https://en.wikipedia.org/wiki/Leigh-on-Sea" target="_blank" rel="noreferrer">Leigh-on-Sea</a>, UK. I have over 7 years experience in Web Development and for the last 4 years I've been building Products, Tools &amp; Services with Laravel &amp; React.</p>
-                
+                <p>I'm a Freelance Web Developer based in <a href="https://en.wikipedia.org/wiki/Leigh-on-Sea" target="_blank" rel="noreferrer">Leigh-on-Sea</a>, UK who is on a mission to help people start and build a career in Web Development. I have over 7 years experience in the industry and now focus on building modern Jamstack Websites and Web Apps with Laravel &amp; React/Vue.js.</p>
+
                 <p>My coding journey started unexpectedly in my first year of University in 2012. I went to uni for graphic design but in our first year we had to build a basic website and I thought writing code was so cool. I was hooked so I switched my degree to Web Technologies. I've been working in the industry since graduating in 2015 with a first class honours.</p>
 
                 <p>Outside of work I like to spend my time walking our <a href="https://www.instagram.com/p/CA0Kd23luxl/" target="_blank" rel="noreferrer">cocker spaniel</a>, drinking coffee, playing golf, gaming and watching Formula 1.</p>
