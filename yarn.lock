@@ -5327,6 +5327,14 @@
   "resolved" "https://registry.npmjs.org/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-1.0.1.tgz"
   "version" "1.0.1"
 
+"gatsby-plugin-google-gtag@^4.6.0":
+  "integrity" "sha512-KH7tzfnB7w4zgBiRAKm8QS7TM8axPbCxSkNkxHv0VH1Ic1Nkd33Y0DzNv7z9Y3ZfbZaQz8TBNSBc2D4BgbBxwQ=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-4.6.0.tgz"
+  "version" "4.6.0"
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "minimatch" "^3.0.4"
+
 "gatsby-plugin-image@^2.5.2":
   "integrity" "sha512-cytI8FNjMoTf/MraMZS9TL0mdDsN7Sh3hYL9GZeLIOTC8n8LE6wK49rDHDrQeq5S6ojk3iEPCgcxWrzQvnbxWQ=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-image/-/gatsby-plugin-image-2.5.2.tgz"
