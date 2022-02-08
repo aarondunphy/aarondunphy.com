@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Aaron Dunphy | Freelance Web Developer | Developer Mentor`,
-    description: `Freelance Web Developer based in Leigh-on-Sea, Essex. On a mission to help people start and build a career in Web Development.`,
+    title: `Aaron Dunphy | Software Developer`,
+    description: `Software Developer based in Leigh-on-Sea, Essex.`,
     author: `@gatsbyjs`,
   },
   plugins: [
