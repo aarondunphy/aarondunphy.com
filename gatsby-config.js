@@ -17,8 +17,6 @@ module.exports = {
           // "AW-CONVERSION_ID", // Google Ads / Adwords / AW
           // "DC-FLOODIGHT_ID", // Marketing Platform advertising products s
         ],
-        // This object gets passed directly to the gtag config command
-        // This config will be shared across all trackingIds
         gtagConfig: {
           anonymize_ip: true,
           cookie_expires: 0,
