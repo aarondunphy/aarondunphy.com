@@ -1,10 +1,10 @@
 import React from "react"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import { StaticImage } from "gatsby-plugin-image"
-import Heading from "../components/Heading"
+import Layout from "../src/components/layout"
+import Seo from "../src/components/seo"
+import Image from "next/image"
+import Heading from "../src/components/Heading"
 
-const UsesPage = () => {
+const Uses = () => {
   return (
     <Layout>
         <Seo title="Uses" />
@@ -52,7 +52,7 @@ const UsesPage = () => {
                   </ul>
               </div>
               <div className="w-full md:w-1/2">
-                <StaticImage src="../images/office.jpg" alt="Office" />                  
+                <Image src="/images/office.jpg" alt="Office" layout="responsive" width={600} height={800} />
               </div>
           </div>
         </div>
@@ -60,4 +60,4 @@ const UsesPage = () => {
   )
 }
 
-export default UsesPage
+export default Uses

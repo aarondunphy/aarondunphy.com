@@ -1,9 +1,9 @@
 import React from "react"
-import Heading from "../components/Heading"
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Heading from "../src/components/Heading"
+import Layout from "../src/components/layout"
+import Seo from "../src/components/seo"
 
-const ProjectPage = () => {
+const Projects = () => {
     return (
         <Layout>
             <Seo title="Projects" />
@@ -128,4 +128,4 @@ const ProjectPage = () => {
     )
 }
 
-export default ProjectPage
+export default Projects

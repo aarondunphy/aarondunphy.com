@@ -1,5 +1,5 @@
 # Aaron Dunphy ☕️ 🏄🏼‍♂️
 
-Built with [Gatsby](https://www.gatsbyjs.com/).
+Built with [Next.js](https://nextjs.org).
 
 [View website](https://aarondunphy.com)

@@ -1,11 +1,11 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import { StaticImage } from "gatsby-plugin-image"
-import Heading from "../components/Heading"
+import Layout from "../src/components/layout"
+import Seo from "../src/components/seo"
+import Image from "next/image"
+import Heading from "../src/components/Heading"
 
-const AboutPage = () => {
+const About = () => {
     return (
         <Layout>
           <Seo title="About" />
@@ -23,7 +23,7 @@ const AboutPage = () => {
                 <p>Outside of work I like to spend my time walking our <a href="https://www.instagram.com/p/CA0Kd23luxl/" target="_blank" rel="noreferrer">cocker spaniel</a>, drinking coffee, playing golf, gaming and watching Formula 1.</p>
               </div>
               <div className="md:w-1/3">
-                <StaticImage src="../images/aarondunphy.jpg" alt="Profile Picture" />
+                <Image src="/images/aarondunphy.jpg" alt="Profile Picture" layout="responsive" width={589} height={521} />
               </div>
             </div>
 
@@ -52,4 +52,4 @@ const AboutPage = () => {
     )
 }
 
-export default AboutPage
+export default About
