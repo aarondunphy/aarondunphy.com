@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
-import * as ga from './lib/ga'
+import * as ga from '../lib/ga'
 import '../src/styles/global.css'
 
 function MyApp({ Component, pageProps }) {

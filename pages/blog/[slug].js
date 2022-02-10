@@ -1,6 +1,6 @@
 import { remark } from 'remark'
 import html from 'remark-html'
-import { getPostBySlug, getAllPosts } from '../lib/blog'
+import { getPostBySlug, getAllPosts } from '../../lib/blog'
 import Layout from "../../src/components/layout"
 import Seo from "../../src/components/seo"
 import Heading from "../../src/components/Heading";

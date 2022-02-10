@@ -3,7 +3,7 @@ import Layout from "../src/components/layout"
 import Seo from "../src/components/seo"
 import Heading from "../src/components/Heading"
 import BlogCard from "../src/components/BlogCard/BlogCard"
-import { getAllPosts } from "./lib/blog"
+import { getAllPosts } from "../lib/blog"
 
 const Blog = ({posts}) => {
 
