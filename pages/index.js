@@ -21,7 +21,7 @@ const Index = ({posts}) => {
 
     return (
         <Layout>
-          <Seo title="Home | Software Developer in Leigh-on-Sea, Essex" />
+          <Seo title="Home | Front End Developer based in Leigh-on-Sea, Essex" />
           <div className="container">
               <div className="py-10 md:py-32 md:w-2/3">
                 <h2 className="text-3xl md:text-5xl font-bold mb-2">Hey, I'm Aaron <span role="img" aria-label="wave">👋</span></h2>
