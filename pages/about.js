@@ -16,7 +16,7 @@ const About = () => {
             <div className="flex flex-col-reverse gap-8 items-center mb-10 md:flex-row">
               <div className="md:w-2/3">
 
-                <p>I'm a Software Developer based in <a href="https://en.wikipedia.org/wiki/Leigh-on-Sea" target="_blank" rel="noreferrer">Leigh-on-Sea</a>, UK. I have over 7 years experience in the industry and now focus on building modern Jamstack Websites and Web Apps with Laravel &amp; React/Vue.js.</p>
+                <p>I'm a Front End Developer based in <a href="https://en.wikipedia.org/wiki/Leigh-on-Sea" target="_blank" rel="noreferrer">Leigh-on-Sea</a>, UK.</p>
 
                 <p>My coding journey started unexpectedly in my first year of University in 2012. I went to uni for graphic design but in our first year we had to build a basic website and I thought writing code was so cool. I was hooked so I switched my degree to Web Technologies. I've been working in the industry since graduating in 2015 with a first class honours.</p>
 
@@ -31,21 +31,21 @@ const About = () => {
             <ul className="list-disc columns-3 ml-6">
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>PHP</li>
-                <li>Laravel</li>
                 <li>JavaScript</li>
                 <li>React</li>
-                <li>Vue.js</li>
-                <li>Gatsby</li>
-                <li>Next.js</li>
-                <li>Node.js</li>
-                <li>TypeScript</li>
-                <li>APIs</li>
                 <li>GraphQL</li>
-                <li>MySQL</li>
+                <li>Next.js</li>
+                <li>TypeScript</li>
+                <li>Node.js</li>
+                <li>Gatsby</li>
+                <li>Vue.js</li>
+                <li>APIs</li>
                 <li>Git</li>
                 <li>Linux</li>
                 <li>Automated Testing</li>
+                <li>PHP</li>
+                <li>Laravel</li>
+                <li>MySQL</li>
             </ul>
           </div>
         </Layout>

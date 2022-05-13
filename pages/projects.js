@@ -19,7 +19,7 @@ const Projects = () => {
 
                     <div className="rounded shadow-gray-400 shadow-lg p-6 border border-gray-100">
                         <Heading level={3} style={{marginBottom: "0px"}}>My Website</Heading>
-                        <p className="text-sm">React - Gatsby - Tailwind CSS</p>
+                        <p className="text-sm">React - JavaScript - Next.js - Tailwind CSS</p>
                         <div class="flex justify-between items-center gap-4 mt-4">
                             <a href="https://aarondunphy.com/" target="_blank" className="text-indigo-700 hover:text-violet-500">View App</a>
                             <a href="https://github.com/aarondunphy/aarondunphy.com" target="_blank" className="text-indigo-700 hover:text-violet-500">View Code</a>
@@ -65,6 +65,18 @@ const Projects = () => {
                 </div>
                 
                 <Heading level={2} style={{marginBottom: "0px"}}>Commerical</Heading>
+
+                <div className="flex-col flex gap-8 mb-12 md:mb-20 md:flex-row">
+                      <div className="w-full md:w-1/3">
+                          <Heading level={3} style={{marginBottom: "0px"}}>Next.js API Server</Heading>
+                          <p className="text-xl mb-0">API Server</p>
+                          <p className="text-sm">Next.js - Node - TypeScript</p>
+                          <p className="text-xs mb-0">Built whilst working at <a href="https://www.junoecommerce.com/" target="_blank" className="text-indigo-700 hover:text-violet-500">Juno Ecommerce</a></p>
+                      </div>
+                      <div className="w-full md:w-2/3">
+                          <p>I built a Next.js app and used the Node/API routes to expose endpoints which can be used to query third party APIs via the server and return data for the front end websites built in Shopify/Liquid. This was needed to avoid CORS errors, avoid exposing secret keys and keep all  server related API calls in one repository.</p>
+                      </div>
+                  </div>
 
                 <div className="flex-col flex gap-8 mb-12 md:mb-20 md:flex-row">
                       <div className="w-full md:w-1/3">
