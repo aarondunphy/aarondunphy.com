@@ -1,7 +1,13 @@
-import Head from 'next/head'
-import config from '../config'
+import Head from "next/head"
+import config from "../config"
+import React from "react"
 
-export default function SEO({ description, title }) {
+interface Props {
+  title: string
+  description: string
+}
+
+export default function SEO({ description, title }: Props) {
   const siteTitle = config.title
 
   return (
