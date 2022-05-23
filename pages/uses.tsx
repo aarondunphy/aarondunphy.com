@@ -22,11 +22,7 @@ const Uses = () => {
             <ul className="list-disc ml-5 mb-8">
               <li>VS Code</li>
               <li>iTerm 2</li>
-              <li>Postman</li>
-              <li>Table Plus</li>
-              <li>Laravel Valet</li>
-              <li>Docker</li>
-              <li>Homebrew</li>
+              <li>Slack</li>
               <li>Magnet</li>
               <li>Google Chrome</li>
             </ul>
@@ -37,6 +33,7 @@ const Uses = () => {
                 MacBook Pro (15-inch, 2017), 2.9 GHz Quad-Core Intel Core i7, 16
                 GB memory
               </li>
+              <li>LG 27″ 4K UHD UltraGear (27GP950)</li>
               <li>LG 27″ 4K UHD IPS LED (27UD68P)</li>
               <li>Apple Magic Mouse 2</li>
               <li>Apple Magic Keyboard 2</li>
