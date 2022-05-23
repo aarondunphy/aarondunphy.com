@@ -66,17 +66,18 @@ const About = () => {
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
-          <li>React</li>
-          <li>GraphQL</li>
-          <li>Next.js</li>
           <li>TypeScript</li>
-          <li>Node.js</li>
-          <li>Gatsby</li>
+          <li>React</li>
           <li>Vue.js</li>
+          <li>Next.js</li>
+          <li>GraphQL</li>
+          <li>Gatsby</li>
+          <li>CI/CD</li>
           <li>APIs</li>
           <li>Git</li>
-          <li>Linux</li>
+          <li>Node.js</li>
           <li>Automated Testing</li>
+          <li>Linux</li>
           <li>PHP</li>
           <li>Laravel</li>
           <li>MySQL</li>
