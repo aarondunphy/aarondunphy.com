@@ -1,8 +1,13 @@
 .logo {
-  font-size: 2.6rem;
+  font-size: 2rem;
   font-weight: 700;
   font-style: italic;
   color: var(--gray-800);
+
+  @media (min-width: $mobile) {
+    font-size: 2.6rem;
+  }
+
   &:hover {
     color: var(--primary);
   }
