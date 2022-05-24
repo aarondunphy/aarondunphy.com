@@ -15,8 +15,8 @@ const About = () => {
       <div className="container">
         <Heading level={1}>Hey, I&apos;m Aaron 👋</Heading>
 
-        <div className="flex flex-col-reverse gap-8 items-center mb-10 md:flex-row">
-          <div className="md:w-2/3">
+        <div className="about">
+          <div>
             <p>
               I&apos;m a Front End Developer based in{" "}
               <a
@@ -50,38 +50,40 @@ const About = () => {
               , drinking coffee, playing golf, gaming and watching Formula 1.
             </p>
           </div>
-          <div className="md:w-1/3">
+          <div className="about__image-container">
             <Image
               src="/images/aarondunphy.jpg"
               alt="Profile Picture"
               layout="responsive"
-              width={589}
-              height={521}
+              width={389}
+              height={321}
             />
           </div>
         </div>
 
-        <Heading level={2}>Tech Skills</Heading>
-        <ul className="list-disc columns-3 ml-6">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>TypeScript</li>
-          <li>React</li>
-          <li>Vue.js</li>
-          <li>Next.js</li>
-          <li>GraphQL</li>
-          <li>Gatsby</li>
-          <li>CI/CD</li>
-          <li>APIs</li>
-          <li>Git</li>
-          <li>Node.js</li>
-          <li>Automated Testing</li>
-          <li>Linux</li>
-          <li>PHP</li>
-          <li>Laravel</li>
-          <li>MySQL</li>
-        </ul>
+        <section className="tech-skills">
+          <Heading level={2}>Tech Skills</Heading>
+          <ul className="tech-skills__list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>React</li>
+            <li>Vue.js</li>
+            <li>Next.js</li>
+            <li>GraphQL</li>
+            <li>Gatsby</li>
+            <li>CI/CD</li>
+            <li>APIs</li>
+            <li>Git</li>
+            <li>Node.js</li>
+            <li>Automated Testing</li>
+            <li>Linux</li>
+            <li>PHP</li>
+            <li>Laravel</li>
+            <li>MySQL</li>
+          </ul>
+        </section>
       </div>
     </Layout>
   )

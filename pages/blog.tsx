@@ -31,9 +31,9 @@ const Blog = ({ posts }: Props) => {
         title="Blog"
         description="Front End Developer based in Leigh-on-Sea, Essex"
       />
-      <div className="container">
+      <div className="container posts">
         <Heading level={1}>Blog</Heading>
-        <div className="mt-16">
+        <div className="posts__cardsContainer">
           <Posts />
         </div>
       </div>

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --white: #fff;
+  --gray-100: #f4f4f4;
+  --gray-200: #ccc;
+  --gray-800: #222;
+  --primary: #0033b4;
+  --primary-font: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--primary-font);
+  margin: 0;
+  padding: 0;
+  color: var(--gray-800);
+}
+
+main {
+  margin: 3rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  @media (min-width: $mobile) {
+    font-size: 4rem;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+  @media (min-width: $mobile) {
+    font-size: 3.5rem;
+  }
+}
+
+h3 {
+  font-size: 2.4rem;
+  @media (min-width: $mobile) {
+    font-size: 2.8rem;
+  }
+}
+
+h4 {
+  font-size: 1.8rem;
+  @media (min-width: $mobile) {
+    font-size: 2.4rem;
+  }
+}
+
+h5 {
+  font-size: 1.8rem;
+  @media (min-width: $mobile) {
+    font-size: 2rem;
+  }
+}
+
+h6 {
+  font-size: 1.4rem;
+  @media (min-width: $mobile) {
+    font-size: 1.6rem;
+  }
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+p {
+  margin: 0 0 2rem 0;
+}
+
+a {
+  color: var(--gray-800);
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0 0 0 2rem;
+}
+
+pre {
+  background-color: var(--gray-800);
+  color: var(--white);
+  padding: 0.5rem;
+  width: 100%;
+  overflow-x: scroll;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,17 @@
+.uses {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 3rem;
+
+  @media (min-width: $mobile) {
+    flex-direction: row;
+  }
+
+  &__imageContainer {
+    flex: 50% 0 0;
+  }
+
+  &__categoryTitle {
+    margin: 2rem 0 1rem 0;
+  }
+}

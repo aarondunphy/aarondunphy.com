@@ -9,7 +9,7 @@ interface Props {
 const Layout = ({ children }: Props) => (
   <>
     <Header />
-    <main className="py-6">{children}</main>
+    <main>{children}</main>
     <Footer />
   </>
 )

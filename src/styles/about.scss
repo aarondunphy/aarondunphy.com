@@ -1,0 +1,17 @@
+.about {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+  @media (min-width: $mobile) {
+    flex-direction: row;
+  }
+  margin-bottom: 2rem;
+  &__image-container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    @media (min-width: $mobile) {
+      flex: 389px 1 0;
+    }
+  }
+}

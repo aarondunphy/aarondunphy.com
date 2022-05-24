@@ -16,15 +16,17 @@ const Post = ({ frontmatter, content }: PostProps) => {
   return (
     <Layout>
       <Seo title={frontmatter.title} description={frontmatter.title} />
-      <div className="container-blog">
-        <div className="blog-post-container">
-          <div className="blog-post">
-            <Heading level={1}>{frontmatter.title}</Heading>
+      <div className="blog">
+        <div className="blog__postContainer">
+          <div className="blog__post">
+            <Heading level={1} className="blog__title">
+              {frontmatter.title}
+            </Heading>
             <p>
               <small>{frontmatter.date}</small>
             </p>
             <div
-              className="blog-post-content"
+              className="blog__postContent"
               dangerouslySetInnerHTML={{ __html: content }}
             />
           </div>

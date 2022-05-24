@@ -1,0 +1,12 @@
+.blogCard {
+  display: inline-block;
+  &:hover {
+    color: var(--primary);
+  }
+  &__title {
+    margin-bottom: 0;
+  }
+  &__date {
+    font-size: 1.2rem;
+  }
+}

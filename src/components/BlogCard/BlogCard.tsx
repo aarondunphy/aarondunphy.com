@@ -11,11 +11,11 @@ interface Props {
 export default function BlogCard({ title, slug, date }: Props) {
   return (
     <Link href={slug}>
-      <a className="inline-block hover:text-indigo-600">
-        <Heading level={3} style={{ marginBottom: 5 }}>
+      <a className="blogCard">
+        <Heading level={3} className="blogCard__title">
           {title}
         </Heading>
-        <p className="mb-0 text-xs">{date}</p>
+        <p className="blogCard__date">{date}</p>
       </a>
     </Link>
   )

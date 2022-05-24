@@ -34,20 +34,23 @@ const Index = ({ posts }: Props) => {
         description="Front End Developer based in Leigh-on-Sea, Essex"
       />
       <div className="container">
-        <div className="py-10 md:py-32 md:w-2/3">
-          <h2 className="text-3xl md:text-5xl font-bold mb-2">
+        <div className="hero">
+          <h2 className="hero__title">
             Hey, I&apos;m Aaron{" "}
             <span role="img" aria-label="wave">
               👋
             </span>
           </h2>
-          <h1 className="text-xl md:text-2xl font-bold mb-2">
+          <h1 className="hero__text">
             Front End Developer based in Leigh-on-Sea, UK
           </h1>
         </div>
-        <div className="mt-16">
+
+        <div className="posts">
           <Heading level={2}>Blog Posts</Heading>
-          <Posts />
+          <div className="posts__cardsContainer">
+            <Posts />
+          </div>
         </div>
       </div>
     </Layout>

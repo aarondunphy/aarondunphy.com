@@ -1,0 +1,10 @@
+.tech-skills {
+  &__list {
+    list-style-type: disc;
+    columns: 2;
+    margin-left: 2rem;
+    @media (min-width: $mobile) {
+      columns: 3;
+    }
+  }
+}

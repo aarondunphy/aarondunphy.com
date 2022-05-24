@@ -14,12 +14,14 @@ const Uses = () => {
       <div className="container">
         <Heading level={1}>Uses</Heading>
 
-        <div className="flex flex-col-reverse justify-between gap-8 md:flex-row">
-          <div className="w-full md:w-1/2">
+        <div className="uses">
+          <div className="uses__content">
             <Heading level={2}>Software &amp; Hardware I Use</Heading>
 
-            <Heading level={3}>Development</Heading>
-            <ul className="list-disc ml-5 mb-8">
+            <Heading level={3} className="uses__categoryTitle">
+              Development
+            </Heading>
+            <ul>
               <li>VS Code</li>
               <li>iTerm 2</li>
               <li>Slack</li>
@@ -27,8 +29,10 @@ const Uses = () => {
               <li>Google Chrome</li>
             </ul>
 
-            <Heading level={3}>Office Setup</Heading>
-            <ul className="list-disc ml-5 mb-8">
+            <Heading level={3} className="uses__categoryTitle">
+              Office Setup
+            </Heading>
+            <ul>
               <li>
                 MacBook Pro (15-inch, 2017), 2.9 GHz Quad-Core Intel Core i7, 16
                 GB memory
@@ -46,13 +50,16 @@ const Uses = () => {
               <li>Herman Miller Aeron chair</li>
             </ul>
 
-            <Heading level={3}>Miscellaneous</Heading>
-            <ul className="list-disc ml-5">
+            <Heading level={3} className="uses__categoryTitle">
+              Miscellaneous
+            </Heading>
+            <ul>
               <li>iPhone 12 Pro</li>
               <li>The North Face Vault Backpack</li>
             </ul>
           </div>
-          <div className="w-full md:w-1/2">
+
+          <div className="uses__imageContainer">
             <Image
               src="/images/office.jpg"
               alt="Office"

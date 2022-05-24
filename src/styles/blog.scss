@@ -1,0 +1,28 @@
+.blog {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3rem;
+  &__title {
+    font-size: 2.4rem;
+    @media (min-width: $mobile) {
+      font-size: 3.4rem;
+    }
+  }
+  &__postContent {
+    h2 {
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      @media (min-width: $mobile) {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  &__postContent {
+    hr {
+      margin: 40px 0px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.hero {
+  padding: 5rem 0;
+  margin-bottom: 3rem;
+
+  @media (min-width: $mobile) {
+    padding: 6rem 0;
+    margin-bottom: 7rem;
+  }
+  &__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    @media (min-width: $mobile) {
+      font-size: 5rem;
+    }
+  }
+  &__text {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    @media (min-width: $mobile) {
+      font-size: 3rem;
+    }
+  }
+}
