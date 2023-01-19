@@ -69,25 +69,25 @@ const Header = () => {
         </button>
 
         <div className="nav__container">
-          <Link href="/">
-            <a className="logo">Aaron Dunphy</a>
+          <Link href="/" className="logo">
+            Aaron Dunphy
           </Link>
           <div
             className={`nav__links-container ${
               isMenuOpen ? "nav__links-container--open" : ""
             }`}
           >
-            <Link href="/">
-              <a className="nav__link">Home</a>
+            <Link href="/" className="nav__link">
+              Home
             </Link>
-            <Link href="/about">
-              <a className="nav__link">About</a>
+            <Link href="/about" className="nav__link">
+              About
             </Link>
-            <Link href="/blog">
-              <a className="nav__link">Blog</a>
+            <Link href="/blog" className="nav__link">
+              Blog
             </Link>
-            <Link href="/uses">
-              <a className="nav__link">Uses</a>
+            <Link href="/uses" className="nav__link">
+              Uses
             </Link>
           </div>
         </div>
