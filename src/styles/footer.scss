@@ -1,11 +1,10 @@
 .footer {
   text-align: center;
-  padding: 10rem 0;
-  background-color: var(--gray-100);
+  padding: 7rem 0;
   &__social-list {
     display: flex;
     gap: 2rem;
-    margin: 0 0 2rem;
+    margin: 0 0 1rem;
     justify-content: center;
     list-style: none;
     &-icon {
@@ -18,5 +17,6 @@
   }
   &__copyright {
     margin: 0;
+    font-size: 1.3rem;
   }
 }

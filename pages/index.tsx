@@ -1,32 +1,8 @@
 import React from "react"
 import Layout from "../src/components/layout"
 import Seo from "../src/components/seo"
-import BlogCard from "../src/components/BlogCard/BlogCard"
-import Heading from "../src/components/Heading"
-import { getAllPosts } from "../lib/blog"
-import { PostFrontmatter } from "../src/types"
 
-interface Props {
-  posts: PostFrontmatter[]
-}
-
-const Index = ({ posts }: Props) => {
-  const Posts = () => {
-    return (
-      <>
-        {posts.map((post, index) => (
-          <div key={index} style={{ marginBottom: 40 }}>
-            <BlogCard
-              title={post.frontmatter.title}
-              slug={post.frontmatter.slug}
-              date={post.frontmatter.date}
-            />
-          </div>
-        ))}
-      </>
-    )
-  }
-
+const Index = () => {
   return (
     <Layout>
       <Seo
@@ -45,25 +21,9 @@ const Index = ({ posts }: Props) => {
             Front End Developer based in Leigh-on-Sea, UK
           </h1>
         </div>
-
-        <div className="posts">
-          <Heading level={2}>Blog Posts</Heading>
-          <div className="posts__cardsContainer">
-            <Posts />
-          </div>
-        </div>
       </div>
     </Layout>
   )
 }
 
 export default Index
-
-export async function getStaticProps() {
-  const posts = getAllPosts()
-  return {
-    props: {
-      posts,
-    },
-  }
-}
